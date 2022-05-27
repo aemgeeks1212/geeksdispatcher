@@ -1,0 +1,6 @@
+# Each farm configures a set of load balanced renders (i.e. remote servers)
+/farms
+  {
+  # Include all *.farm files in enabled_farms
+  $include "available_farms/*.farm"
+  }
